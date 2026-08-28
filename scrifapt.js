@@ -258,18 +258,35 @@ function trocarImagem(escolha) {
           urlNova = 'heliocentrico.webp';
           textoprincipal.innerText="Oque são modelos cosmológicos?";
           texto.innerText="Modelos cosmológicos são descrições matemáticas e teóricas que explicam a origem, a estrutura, a evolução e o destino do universo. Eles funcionam como mapas em grande escala baseados em leis físicas, como a Teoria da Relatividade Geral de Einstein, para entender o comportamento do cosmos desde o Big Bang.";
-          descrevefigura.innerText="Imagem do Sol na cor amarela ";
+          descrevefigura.innerText="Imagem do modelo héliocentrico ";
           break;
         case "2":
-          urlNova = 'cordosol.jfif';
-          textoprincipal.innerText="A verdadeira cor do SOL ";
-          texto.innerText="O Sol visto a olho nu no espaço é na verdade branco. A coloração amarela que vemos aqui na superfície da Terra é por causa da atmosfera da Terra.";
-          descrevefigura.innerText="Imagem do Sol na cor branca ";
+          urlNova = 'claudio-ptolomeu.webp';
+          textoprincipal.innerText="Sobre o Cláudio Ptolomeu ";
+          texto.innerText="Ptolomeu se propôs a aperfeiçoar as teorias de Hiparco de Niceia, matemático e astrônomo grego que viveu durante o século II a. C. Durante anos de observações, cálculos e estudos, escreveu os 13 volumes da obra mestra da astronomia da Antiguidade, “Composição Matemática”.";
+          break;
+        case "3":
+          urlNova = 'geocentrismo(1).webp';
+          textoprincipal.innerText="O modelo do geocentrismo";
+          texto.innerText="Ptolomeu definiu a obra como uma tentativa de completa exposição do sistema "geocêntrico", que situava a "Terra no centro do universo" e, girando em torno dela estavam a Lua, Mercúrio, Vênus, o Sol, Marte, Júpiter, Saturno e as estrelas.";
+          descrevefigura.innerText="Imagem do modelo geocentrico ";
+          break;
+        case "4":
+          urlNova = 'coper.jpeg';
+          textoprincipal.innerText="Sobre o Nicolau Copérnico ";
+          texto.innerText="Nicolau Copérnico (cujo nome em polonês é Mikołaj Kopernik) era filho do comerciante Nicolau Copérnico e de Barbara Watzenrode, que também era de uma importante família de comerciantes, segundo informações do museu polonês. Como o Museu indica, o jovem estudou na Academia de Cracóvia, na Polônia, onde adquiriu um amplo conhecimento das ciências humanas e uma grande paixão pelo estudo da astronomia. Ele também foi educado na Itália, onde estudou direito e medicina e obteve um doutorado em direito canônico em 1503.";
+          descrevefigura.innerText="Imagem do Nicolau Copérnico ";
+          break;
+        case "5":
+          urlNova = 'helio.jpeg';
+          textoprincipal.innerText="O modelo do héliocentrismo ";
+          texto.innerText="Na época de Copérnico, a maioria das pessoas acreditava na teoria do astrônomo grego Cláudio Ptolomeu, que mais de mil anos antes havia dito que a Terra era o centro do Universo e que o planeta permanecia imóvel, como explica a Nasa. De acordo com a agência norte-americana, Copérnico achava que a teoria de Ptolomeu estava incorreta. Assim, em algum momento entre 1507 e 1515, ele divulgou pela primeira vez os princípios de sua teoria heliocêntrica. O astrônomo propôs que a Terra e os demais planetas giravam em torno do Sol e que, além de orbitar anualmente em torno do Sol, a Terra girava uma vez por dia em seu próprio eixo. Ele também argumentou que mudanças lentas de longo prazo na direção do eixo da Terra explicavam a precessão dos equinócios, informa a Britannica.";
+          descrevefigura.innerText="Imagem do outro modelo héliocentrico ";
           break;
         default:
-          urlNova = 'acessibilidade.png';
-          textoprincipal.innerText="O que é Acessibilidade?";
-          texto.innerText="        A acessibilidade digital permite que qualquer        pessoa utilize sistemas computacionais        independentemente de suas limitações.";
+          urlNova = 'heliocentrico.webp';
+          textoprincipal.innerText="O que é esta página?";
+          texto.innerText="Olá. Esta página foi criada como parte de um trabalho do projeto IFA, criado pela colaboração de 6 alunos da turma do Segundo E: Anna Luiza, Eduardo, Felipe, João Henrique, Nathally, e Samuel da Silva. Clique em qualquer flashcards para observar cada parte do projeto relacionado a: MODELOS COSMOLÓGICOS.";
           descrevefigura.innerText="Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
           break;
         }
