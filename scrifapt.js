@@ -255,7 +255,7 @@ function trocarImagem(escolha) {
     const imagemnova=document.getElementById('imagemPrincipal');
     switch(escolha){
         case "1":
-          urlNova = 'café.png';
+          urlNova = 'heliocentrico.webp';
           textoprincipal.innerText="Oque são modelos cosmológicos?";
           texto.innerText="Modelos cosmológicos são descrições matemáticas e teóricas que explicam a origem, a estrutura, a evolução e o destino do universo. Eles funcionam como mapas em grande escala baseados em leis físicas, como a Teoria da Relatividade Geral de Einstein, para entender o comportamento do cosmos desde o Big Bang.";
           descrevefigura.innerText="Imagem do Sol na cor amarela ";
