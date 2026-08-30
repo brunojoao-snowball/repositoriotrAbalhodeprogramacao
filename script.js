@@ -268,7 +268,7 @@ function trocarImagem(escolha) {
         case "3":
           urlNova = 'geocentrismo(1).webp';
           textoprincipal.innerText="O modelo do geocentrismo";
-          texto.innerText="Ptolomeu definiu a obra como uma tentativa de completa exposição do sistema "geocêntrico", que situava a "Terra no centro do universo" e, girando em torno dela estavam a Lua, Mercúrio, Vênus, o Sol, Marte, Júpiter, Saturno e as estrelas.";
+          texto.innerText="Ptolomeu definiu a obra como uma tentativa de completa exposição do sistema \"geocêntrico\", que situava a \"Terra no centro do universo\" e, girando em torno dela estavam a Lua, Mercúrio, Vênus, o Sol, Marte, Júpiter, Saturno e as estrelas.";
           descrevefigura.innerText="Imagem do modelo geocentrico ";
           break;
         case "4":
